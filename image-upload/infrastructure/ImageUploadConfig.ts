@@ -1,4 +1,4 @@
-import { Config } from "effect"
+import { Config } from "effect";
 
 export const ImageUploadConfig = Config.all({
   accountId: Config.NonEmptyString("R2_ACCOUNT_ID"),
@@ -6,4 +6,4 @@ export const ImageUploadConfig = Config.all({
   secretAccessKey: Config.Redacted("R2_SECRET_ACCESS_KEY"),
   bucket: Config.NonEmptyString("R2_BUCKET"),
   publicUrl: Config.NonEmptyString("R2_PUBLIC_URL")
-})
+});
