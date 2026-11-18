@@ -32,3 +32,6 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# record of the last manual R2 upload (scripts/upload.ts)
+scripts/last-upload.json
