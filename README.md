@@ -26,7 +26,7 @@ Modules are distributed as source code with [jsrepo](https://jsrepo.dev), like s
 the files are copied into your project and become yours to change.
 
 ```bash
-bunx jsrepo init github/<owner>/backend-kit
+bunx jsrepo init github/guilliom01/backend-kit
 bunx jsrepo add image-upload
 ```
 
