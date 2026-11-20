@@ -14,6 +14,13 @@ R2_BUCKET=
 R2_PUBLIC_URL=https://cdn.example.com
 ```
 
+Any other S3-compatible storage (MinIO, a local emulator like floci) works by replacing `R2_ACCOUNT_ID` with:
+
+```
+R2_ENDPOINT=http://localhost:4566
+R2_REGION=us-east-1   # emulators reject Bun's default region "auto"
+```
+
 ## Use
 
 ```ts

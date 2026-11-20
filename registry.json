@@ -129,6 +129,16 @@
 				{
 					"type": "module",
 					"role": "file",
+					"path": "image-upload/test/ImageUploadConfig.test.ts",
+					"relativePath": "image-upload/test/ImageUploadConfig.test.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
 					"path": "image-upload/test/UploadImage.test.ts",
 					"relativePath": "image-upload/test/UploadImage.test.ts",
 					"_imports_": [],

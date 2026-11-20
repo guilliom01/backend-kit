@@ -1,5 +1,5 @@
 import { S3Client } from "bun";
-import { Effect, Layer, Redacted } from "effect";
+import { Effect, Layer, Option, Redacted } from "effect";
 import { ImageStorage } from "../application/ImageStorage.ts";
 import { StorageError } from "../domain/errors.ts";
 import { ImageUploadConfig } from "./ImageUploadConfig.ts";
@@ -12,7 +12,8 @@ export const R2ImageStorageLayer = Layer.effect(
       accessKeyId: config.accessKeyId,
       secretAccessKey: Redacted.value(config.secretAccessKey),
       bucket: config.bucket,
-      endpoint: `https://${config.accountId}.r2.cloudflarestorage.com`
+      endpoint: config.endpoint,
+      region: Option.getOrUndefined(config.region)
     });
     const baseUrl = config.publicUrl.replace(/\/+$/, "");
 
