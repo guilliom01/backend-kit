@@ -6,5 +6,5 @@
   "singleQuote": false,
   "printWidth": 100,
   "trailingComma": "none",
-  "ignorePatterns": ["bun.lock", ".cursor"]
+  "ignorePatterns": ["bun.lock", ".cursor", "registry.json"]
 }

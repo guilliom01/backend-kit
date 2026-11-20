@@ -8,13 +8,15 @@
     "format": "oxfmt",
     "format:check": "oxfmt --check",
     "try:upload": "bun scripts/upload.ts",
-    "try:delete": "bun scripts/delete.ts"
+    "try:delete": "bun scripts/delete.ts",
+    "build:registry": "jsrepo build"
   },
   "dependencies": {
     "effect": "4.1.4"
   },
   "devDependencies": {
     "@types/bun": "latest",
+    "jsrepo": "3.8.3",
     "oxfmt": "^0.79.0"
   },
   "peerDependencies": {

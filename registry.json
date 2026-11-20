@@ -1,0 +1,152 @@
+{
+	"name": "backend-kit",
+	"type": "repository",
+	"items": [
+		{
+			"name": "image-upload",
+			"type": "module",
+			"add": "when-added",
+			"registryDependencies": [],
+			"dependencies": [
+				{
+					"ecosystem": "js",
+					"name": "effect",
+					"version": "4.1.4"
+				}
+			],
+			"devDependencies": [],
+			"files": [
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/index.ts",
+					"relativePath": "image-upload/index.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/application/ImageProcessor.ts",
+					"relativePath": "image-upload/application/ImageProcessor.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/application/ImageStorage.ts",
+					"relativePath": "image-upload/application/ImageStorage.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/application/UploadImage.ts",
+					"relativePath": "image-upload/application/UploadImage.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/domain/ImageVariant.ts",
+					"relativePath": "image-upload/domain/ImageVariant.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/domain/ObjectKey.ts",
+					"relativePath": "image-upload/domain/ObjectKey.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/domain/errors.ts",
+					"relativePath": "image-upload/domain/errors.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/infrastructure/BunImageProcessor.ts",
+					"relativePath": "image-upload/infrastructure/BunImageProcessor.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/infrastructure/ImageUploadConfig.ts",
+					"relativePath": "image-upload/infrastructure/ImageUploadConfig.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/infrastructure/R2ImageStorage.ts",
+					"relativePath": "image-upload/infrastructure/R2ImageStorage.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/test/BunImageProcessor.test.ts",
+					"relativePath": "image-upload/test/BunImageProcessor.test.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/test/UploadImage.test.ts",
+					"relativePath": "image-upload/test/UploadImage.test.ts",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				},
+				{
+					"type": "module",
+					"role": "file",
+					"path": "image-upload/README.md",
+					"relativePath": "image-upload/README.md",
+					"_imports_": [],
+					"registryDependencies": [],
+					"dependencies": [],
+					"devDependencies": []
+				}
+			]
+		}
+	]
+}
